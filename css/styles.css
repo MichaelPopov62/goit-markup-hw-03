@@ -161,7 +161,8 @@ img {
 }
 /*tem-title*/
 .team {
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .tem-title {
   font-weight: 500;
@@ -220,6 +221,8 @@ img {
 .team-items {
   font-style: normal;
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .container {
   margin-top: 120px;
@@ -231,6 +234,7 @@ img {
   margin-left: 12px;
   margin-bottom: 32px;
   margin-top: 240px;
+  margin-bottom: 72px;
 }
 
 .team-title {
@@ -259,6 +263,11 @@ img {
 
 .team-list {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
+}
+.persona {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .team-name {
   font-weight: 500;
@@ -267,6 +276,7 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .team-text {
   font-size: 16px;
