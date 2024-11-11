@@ -86,7 +86,7 @@ img {
   gap: 40px;
 }
 .nav-link {
-  padding: 24px 0 px;
+  padding: 24px 0;
   display: block;
   font-weight: 500;
   font-size: 16px;
@@ -134,7 +134,7 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 496px;
+  max-width: 496px;
   font-size: 56px;
   line-height: 107%;
   color: #fff;
@@ -175,7 +175,7 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
-.desc-lead {
+.container desc-lead {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -190,7 +190,7 @@ img {
 .team-items {
   background-color: #f4f4fd;
   padding-top: 120px;
-  padding-bottom: 120px 0;
+  padding-bottom: 120px;
 }
 .team-title {
   font-weight: 700;
@@ -264,6 +264,8 @@ img {
   border-left: 1px solid #e7e9fc;
   border-right: 1px solid #e7e9fc;
   border-top: none;
+  padding: 32px 16px;
+  margin-bottom: 8px;
 }
 
 .portfolio-direction {
@@ -274,7 +276,6 @@ img {
   color: #2e2f42;
   text-align: left;
   margin: 32px 0px 8px 0;
-  margin-bottom: 8px;
 }
 .portfolio-caption {
   font-size: 16px;
