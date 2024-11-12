@@ -159,7 +159,7 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.visually-hidden {
+.container visually-hidden {
   overflow: hidden;
   pointer-events: none;
   position: absolute;
