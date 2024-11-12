@@ -159,8 +159,9 @@ img {
   padding-top: 120px;
   padding-bottom: 120px;
 }
-.container visually-hidden {
+.visually-hidden {
   overflow: hidden;
+  pointer-events: none;
   position: absolute;
   width: 1px;
   height: 1px;
