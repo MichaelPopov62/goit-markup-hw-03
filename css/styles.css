@@ -160,7 +160,6 @@ img {
   padding-bottom: 120px;
 }
 .visually-hidden {
-  overflow: hidden;
   position: absolute;
   width: 1px;
   height: 1px;
@@ -170,7 +169,9 @@ img {
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
 .desc-item {
   display: flex;
   flex-wrap: wrap;
