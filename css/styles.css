@@ -158,8 +158,6 @@ img {
 .container-team {
   padding-top: 120px;
   padding-bottom: 120px;
-  display: flex;
-  gap: 24px;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -182,7 +180,10 @@ img {
   flex-wrap: wrap;
   flex-basis: calc((100% - 3 * 24px) 4);
 }
-
+.desc {
+  display: flex;
+  gap: 24px;
+}
 .container desc-lead {
   font-weight: 500;
   font-size: 20px;
