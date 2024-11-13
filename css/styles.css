@@ -182,7 +182,6 @@ img {
 .desc {
   display: flex;
   gap: 24px;
-  padding: 0 15px;
 }
 .container desc-lead {
   font-weight: 500;
