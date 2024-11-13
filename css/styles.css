@@ -177,7 +177,7 @@ img {
 .desc-item {
   display: flex;
   flex-wrap: wrap;
-  width: calc((100% - 3 * 24px) 4);
+  width: calc((100% - 72px) / 4);
 }
 .desc {
   display: flex;
