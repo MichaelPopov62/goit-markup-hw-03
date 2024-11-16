@@ -294,6 +294,7 @@ img {
 .logo {
   display: inline-block;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .footer-text {
