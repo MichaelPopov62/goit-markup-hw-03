@@ -272,12 +272,19 @@ img {
   text-align: left;
   margin: 0px 8px 0;
 }
+.down {
+  margin-bottom: 8px;
+}
 .portfolio-caption {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
   text-align: left;
+  padding-top: 8px;
+}
+.from {
+  margin-top: 8px;
 }
 /*footer*/
 .page-footer {
@@ -289,12 +296,9 @@ img {
   display: inline-block;
   color: #4d5ae5;
 }
-.indentation {
-  padding-top: 16px;
-  max-width: 264px;
-}
 .footer-text {
   line-height: 1.5;
   color: #f4f4fd;
   max-width: 264px;
+  margin-top: 16px;
 }
